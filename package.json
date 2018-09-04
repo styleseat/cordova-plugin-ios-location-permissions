@@ -1,17 +1,17 @@
 {
-  "name": "cordova-plugin-ios-contacts-permissions",
+  "name": "cordova-plugin-ios-location-permissions",
   "version": "1.0.0",
   "author": "Nicolás Naso <niconaso@gmail.com>",
-  "description": "Cordova / PhoneGap Plugin Permission Settings for NSContactsUsageDescription in iOS 11 by adding a declaration to the Info.plist file",
+  "description": "Cordova / PhoneGap Plugin Permission Settings for NSLocationWhenInUseUsageDescription and NSLocationAlwaysAndWhenInUseUsageDescription in iOS 11 by adding a declaration to the Info.plist file",
   "cordova": {
-    "id": "cordova-plugin-ios-contacts-permissions",
+    "id": "cordova-plugin-ios-location-permissions",
     "platforms": [
       "ios"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/niconaso/cordova-plugin-ios-contacts-permissions.git"
+    "url": "git+https://github.com/niconaso/cordova-plugin-ios-location-permissions.git"
   },
   "keywords": [
     "cordova",
@@ -21,7 +21,8 @@
     "app",
     "security",
     "permissions",
-    "nscontactsusageDescription",
+    "NSLocationWhenInUseUsageDescription",
+    "NSLocationAlwaysAndWhenInUseUsageDescription",
     "ecosystem:cordova",
     "cordova-ios"
   ],
@@ -33,7 +34,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/niconaso/cordova-plugin-ios-contacts-permissions/issues"
+    "url": "https://github.com/niconaso/cordova-plugin-ios-location-permissions/issues"
   },
-  "homepage": "https://github.com/niconaso/cordova-plugin-ios-contacts-permissions#readme"
+  "homepage": "https://github.com/niconaso/cordova-plugin-ios-location-permissions#readme"
 }
