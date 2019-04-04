@@ -20,8 +20,8 @@ cordova plugin add https://github.com/niconaso/cordova-plugin-ios-location-permi
 
 On installation you can customise the prompts shown by setting the following variables on installation.
 
-- LOCATION_WHEN_IN_USAGE_DESCRIPTION for NSLocationWhenInUseUsageDescription
-- LOCATION_ALWAYS_AND_WHEN_IN_USAGE_DESCRIPTION for NSLocationAlwaysAndWhenInUseUsageDescription
+- LOCATION_WHEN_IN_USE_USAGE_DESCRIPTION for NSLocationWhenInUseUsageDescription
+- LOCATION_ALWAYS_AND_WHEN_IN_USE_USAGE_DESCRIPTION for NSLocationAlwaysAndWhenInUseUsageDescription
 - LOCATION_ALWAYS_USAGE_DESCRIPTION for NSLocationAlwaysUsageDescription
 
 
