@@ -27,7 +27,7 @@ On installation you can customise the prompts shown by setting the following var
 
 For example:
 ```
-cordova plugin add cordova-plugin-ios-location-permissions --variable LOCATION_WHEN_IN_USAGE_DESCRIPTION="your usage message" --variable LOCATION_ALWAYS_AND_WHEN_IN_USAGE_DESCRIPTION="your usage message" --variable LOCATION_ALWAYS_USAGE_DESCRIPTION="your usage message" --save
+cordova plugin add cordova-plugin-ios-location-permissions --variable LOCATION_WHEN_IN_USE_USAGE_DESCRIPTION="your usage message" --variable LOCATION_ALWAYS_AND_WHEN_IN_USE_USAGE_DESCRIPTION="your usage message" --variable LOCATION_ALWAYS_USAGE_DESCRIPTION="your usage message" --save
 ```
 
 ## Usage
