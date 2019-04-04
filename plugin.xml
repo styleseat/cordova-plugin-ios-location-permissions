@@ -10,14 +10,14 @@
         <engine name="cordova" version=">=3.0.0"/>
     </engines>
     <platform name="ios">
-        <preference name="LOCATION_ALWAYS_AND_WHEN_IN_USAGE_DESCRIPTION" default="Used to find stylists near you."/>
+        <preference name="LOCATION_ALWAYS_AND_WHEN_IN_USE_USAGE_DESCRIPTION" default="Used to find stylists near you."/>
         <config-file target="*-Info.plist" parent="NSLocationAlwaysAndWhenInUseUsageDescription">
-            <string>$LOCATION_ALWAYS_AND_WHEN_IN_USAGE_DESCRIPTION</string>
+            <string>$LOCATION_ALWAYS_AND_WHEN_IN_USE_USAGE_DESCRIPTION</string>
         </config-file>
 
-        <preference name="LOCATION_WHEN_IN_USAGE_DESCRIPTION" default="Used to find stylists near you."/>
+        <preference name="LOCATION_WHEN_IN_USE_USAGE_DESCRIPTION" default="Used to find stylists near you."/>
         <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
-            <string>$LOCATION_WHEN_IN_USAGE_DESCRIPTION</string>
+            <string>$LOCATION_WHEN_IN_USE_USAGE_DESCRIPTION</string>
         </config-file>
 
         <preference name="LOCATION_ALWAYS_USAGE_DESCRIPTION" default="Used to find stylists near you."/>
